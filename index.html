@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>veronne2010 - Official GitHub website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 900px;
+        }
+
+        .intro {
+            text-align: left;
+        }
+
+        .intro h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #58a6ff;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #8b949e;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .menu a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: color 0.2s;
+        }
+
+        .menu a:hover {
+            color: #1f6feb;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .menu {
+                flex-direction: row;
+                gap: 1.5rem;
+                margin-top: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>veronne2010</h1>
+            <p>Official GitHub website</p>
+        </div>
+        <div class="menu">
+            <a href="/working.html">Working on</a>
+            <a href="/projects.html">Projects</a>
+            <a href="https://github.com/Veronne2010" target="_blank">Official GitHub Profile</a>
+        </div>
+    </div>
+</body>
+</html>
